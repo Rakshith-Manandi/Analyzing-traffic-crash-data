@@ -17,7 +17,7 @@ def preprocess_person_killed_by_age():
     years = [str(i) for i in list(range(1994,2017))]
     
     for i in range(1994,2017):
-        df = pd.read_csv(r'data\Number of fatalities by age group (1994~2016)\%d.xls'%(i),sep = '\t',header = None)
+        df = pd.read_csv(r'data/Number of fatalities by age group (1994~2016)/%d.xls'%(i),sep = '\t',header = None)
         df = df.iloc[1:,:]
         df.columns = ['age', 'number','nan']
         num = df['number']
