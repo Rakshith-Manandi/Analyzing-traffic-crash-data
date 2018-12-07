@@ -35,12 +35,12 @@ def by_state(df):
     :returns: DataFrame
     '''
     
-    states = x.groupby('STATE')	
+    states = df.groupby('STATE')	
     count_by_state = np.asarray(states.YEAR.count())
     global stcodes
     return stcodes, count_by_state
 
-def by_state_per_capita(x):
+def by_state_per_capita(df):
     '''
     This function takes a pandas DataFrame and returns the plot variables 
 
@@ -49,7 +49,7 @@ def by_state_per_capita(x):
 
     :returns: DataFrame
     '''
-    states = x.groupby('STATE')
+    states = df.groupby('STATE')
     count_by_state = np.asarray(states.YEAR.count())
     global stcodes, stpopulation
     acc_per_capita = count_by_state / stpopulation * 1e+5
