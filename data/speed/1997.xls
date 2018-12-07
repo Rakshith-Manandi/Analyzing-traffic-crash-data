@@ -1,0 +1,12 @@
+	Land Use								
+	Rural		Urban		Unknown		Total		
+Speed Limit	Number	Percent	Number1	Percent1	Number2	Percent2	Number3	Percent3	
+
+30 mph or less	990	22.4	3410	77.2	19	0.4	4419	100.0	
+35 or 40 mph	2073	29.7	4893	70.1	11	0.2	6977	100.0	
+45 or 50 mph	3609	50.7	3502	49.2	6	0.1	7117	100.0	
+55 mph	12153	82.2	2632	17.8	3	0.0	14788	100.0	
+60 mph or higher	5721	75.1	1895	24.9	0	0.0	7616	100.0	
+No Statutory Limit	176	89.8	18	9.2	2	1.0	196	100.0	
+Unknown	413	45.9	479	53.2	8	0.9	900	100.0	
+Total	25135	59.8	16829	40.1	49	0.1	42013	100.0	
