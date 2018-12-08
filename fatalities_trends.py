@@ -7,16 +7,13 @@ def preprocess_person_killed_by_age():
     
     '''
     import pandas as pd
-    print('here as well')
     line1 = [] # <20
     line2 = [] # 21~44
     line3 = [] # 45~64
     line4 = [] # >65
     total = []
     
-    print('here')
     years = [str(i) for i in list(range(1994,2017))]
-    print(years)
     
     for i in range(1994,2017):
         df = pd.read_csv(r'data/age/%d.xls'%i,sep = '\t',header = None)
