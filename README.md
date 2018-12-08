@@ -9,8 +9,6 @@ Throughout our project, our process is to start most of our analysis by visualiz
 We started our analysis by analyzing traffic fatalities per state. 
 ![Alt text](Readme_Figures/Figure_1.png?raw=true "Figure 1. Total Accidents By State in 2017. Darker states like CA, TX, FL have a higher count
 ")
-<<<<<<< HEAD
-=======
 
 We see a general trend that the most populated states have the highest number of fatalities. This lead us to plot per capita to make less populated states comparable.
 ![Alt text](Readme_Figures/Figure_2.png?raw=true)
@@ -32,7 +30,7 @@ We also visualize fatalities in this time range by vehicle type.
 Again we see a significant decrease in the same 2005-2010 inteval for trucks and cars.
 
 We also visualized fatalities in this time range by age group.
-![Alt text](Readme_Figures/Figure_6.png?raw=true)
+![Alt text](Readme_Figures/FIgure_6.png?raw=true)
 We see the decerase in the same interval for the major age group 21-44 years old.
 
 We found in other research that the factors that attribute to this trend is that advancements in vehicle safety technology continues to improve. Also this decline is historically common in times of recession (2008 was the year of recession).
@@ -58,4 +56,3 @@ The insights that we presented here can be used in drinking and driving solution
 
 
 
->>>>>>> origin/readme
