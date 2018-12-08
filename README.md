@@ -54,5 +54,6 @@ This indicated that drinking and driving is a big factor in fatality count.
 
 The insights that we presented here can be used in drinking and driving solutions, emerging laws and regulations, etc.
 
-
+Note:
+Due to dependency issues the plots are not displayed in the jupyter notebook
 
