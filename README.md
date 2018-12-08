@@ -12,3 +12,15 @@ We started our analysis by analyzing traffic fatalities per state.
 
 We see a general trend that the most populated states have the highest number of fatalities. This lead us to plot per capita to make less populated states comparable.
 ![Alt text](Readme_Figures/Figure_2.png?raw=true)
+
+Next we see that the states that lead in fatalities per capita have changed from the previous figure dramatically. We note that Mississippi and other rural states are now the leaders (per capita) compared to urban states which lead in total.
+
+We now visualize fatalities by the road's speed limit of the fatality, and road type (rural or urban).
+![Alt text](Readme_Figures/Figure_3.png?raw=true)
+
+We see a large spike for rural roads at higher speed limits.
+This indicates that rural roads tend to be much more dangerous at higher speeds compared to urban roads and that urbanness or ruralness of the area could be a contributing factor to traffic safety.
+
+Next we visualized the total number of fatalities per year over the time range 1994-2016.
+![Alt text](Readme_Figures/Figure_4.png?raw=true)
+We see that there is a significant decrease in the 2005-2010 interval.
