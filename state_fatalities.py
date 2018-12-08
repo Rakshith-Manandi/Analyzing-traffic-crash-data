@@ -35,7 +35,7 @@ def by_state(df):
     :returns: DataFrame
     '''
     
-    states = df.groupby('STATE')	
+    states = df.groupby('STATE')
     count_by_state = np.asarray(states.YEAR.count())
     global stcodes
     return stcodes, count_by_state

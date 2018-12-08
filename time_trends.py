@@ -17,7 +17,7 @@ def read_accidents(filename):
     '''
     assert isinstance(filename,str)
 
-    traffic_data = pd.read_csv('FARS2017NationalCSV/accident.csv',
+    traffic_data = pd.read_csv(filename,
                                usecols=[0, 1, 11, 12, 13, 25, 26, 50, 51])
     traffic_data = traffic_data.rename(
         columns={'ST_CASE':'case_id', 'LONGITUD':'longitude',
