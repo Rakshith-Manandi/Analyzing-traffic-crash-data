@@ -9,3 +9,6 @@ Throughout our project, our process is to start most of our analysis by visualiz
 We started our analysis by analyzing traffic fatalities per state. 
 ![Alt text](Readme_Figures/Figure_1.png?raw=true "Figure 1. Total Accidents By State in 2017. Darker states like CA, TX, FL have a higher count
 ")
+
+We see a general trend that the most populated states have the highest number of fatalities. This lead us to plot per capita to make less populated states comparable.
+![Alt text](Readme_Figures/Figure_2.png?raw=true)
